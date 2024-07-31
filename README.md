@@ -1,17 +1,24 @@
 
-# Extended Project: Lista Enlazada.
+# Lista Enlazada.
 
 ![Lista enlazada simple.](https://res.cloudinary.com/dwdgpw20b/image/upload/v1694699279/illustrations/linked-list_kitael.svg "")
 
-## El Equipo 2 te da la bienvenida
 
 **¿Sobre que trata el proyecto? 🤔** 
 
-Conocer, comprender y trabajar con el concepto de lista enlazada simple y adaptar algunas de sus funcionalidades mediante código en JavaScript
+Mi objetivo es que todos puedan conocer y comprender cómo funcionan las listas enlazadas simples y luego adaptar algunas de sus funcionalidades utilizando código en JavaScript.
 
-**Operaciones básicas**
+**Propiedades de una Lista Enlazada**
 
-Si cuentas con una lista de nodos conectados unos a otros, puedes imaginar hacer varios tipos de operaciones sobre la lista. Aquí los principales ejemplos:
+En una lista enlazada, normalmente encontramos las siguientes propiedades:
+
+* Un nodo cabeza (head), que es el primer nodo de la lista.
+* Un nodo cola (tail), que es el último nodo de la lista.
+* Una longitud (length), que es la cantidad de nodos en la lista.
+
+**Inicio**
+* createLinkedList: Inicializar una nueva lista enlazada vacía.
+* createNode: Crear un nuevo nodo para la lista enlazada.
 
 **De Inserción**
 
@@ -28,25 +35,6 @@ Si cuentas con una lista de nodos conectados unos a otros, puedes imaginar hacer
 * Get: Encontrar un nodo en una posición específica.
 De Reversión:
 
-## Metodología de trabajo
+## Testing automático
 
-El equipo 2 ha utilizado como parte del Gitflow 3 niveles de ramas, la rama princial ("main"), la rama desarrollo ("develop") y carácterísticas (las ramas "features" de cada integrante se encontrará nombradas con sus propios nombres). 
-
-Para la asignación y seguimiento de cada característica a desarrollar por los integrantes se utilizó una tabla kanban creada dentro de nuestro propio repositorio, dejamos el link más abajo.
-
-## Recursos
-
-- [Tabla Kanban](https://github.com/orgs/codeableorg/projects/187)
-
-
-
-
-
-
-
-
-**¡Vamos Cohort 13!**
-
-> ${anything} can't stop me
-
-
+Podra comprobar si mis funciones cumplen con los requisitos visitando la página [test.html.](http://127.0.0.1:5501/test.html) He incluido un conjunto de pruebas unitarias que verificará el correcto funcionamiento de cada función.
