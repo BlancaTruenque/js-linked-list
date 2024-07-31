@@ -33,8 +33,10 @@ describe("Lista Enlazada", () => {
     it("debería agregar múltiples nodos", () => {
       append(linkedList, "first");
       append(linkedList, "second");
+      append(linkedList, "third");
       assert.equal(linkedList.head.value, "first");
       assert.equal(linkedList.head.next.value, "second");
+      assert.equal(linkedList.head.next.next.value, "third");
     });
   });
 
